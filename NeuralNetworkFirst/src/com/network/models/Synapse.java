@@ -19,8 +19,10 @@ public class Synapse {
     {
         id = UUID.randomUUID();
         inputNeuron = InputNeuron;
-        outputNeuron = OutputNeuron;
+        this.outputNeuron = OutputNeuron;
         weight = Network.getRandom();
     }
+
+
     //endregion
 }
